@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "outfit";
+    src: url('Outfit-VariableFont_wght.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    align-content: center;
+   
+}
+
+.container{
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+}
+.card{
+    margin:auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1,max(200px));
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px 1px rgba(168, 167, 167, 0.662);
+   
+}
+
+.qrcodeimage img{
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-text{
+    font-size: 15px;
+    font-family:"outfit";
+}
+
+.card-text h3{
+    font-size: 16px;
+    margin-bottom: 0.7rem;
+}
+
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 92%, 26%); 
+    background-color: rgba(0, 191, 255, 0.644);
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.attribution a{
+    color: hsl(284, 91%, 41%);
+}
